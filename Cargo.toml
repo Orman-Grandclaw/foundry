@@ -192,10 +192,10 @@ alloy-transport-http = { git = "https://github.com/alloy-rs/alloy", rev = "cc68b
 alloy-transport-ipc = { git = "https://github.com/alloy-rs/alloy", rev = "cc68b93", default-features = false }
 alloy-transport-ws = { git = "https://github.com/alloy-rs/alloy", rev = "cc68b93", default-features = false }
 alloy-primitives = { version = "0.7.1", features = ["getrandom", "rand"] }
-alloy-dyn-abi = "0.7.1"
-alloy-json-abi = "0.7.1"
-alloy-sol-types = "0.7.1"
-syn-solidity = "0.7.1"
+alloy-dyn-abi = "0.7.2"
+alloy-json-abi = "0.7.2"
+alloy-sol-types = "0.7.2"
+syn-solidity = "0.7.2"
 alloy-chains = "0.1"
 alloy-trie = "0.4.1"
 alloy-rlp = "0.3.3"
@@ -248,3 +248,4 @@ revm = { git = "https://github.com/bluealloy/revm.git", rev = "a28a543" }
 revm-interpreter = { git = "https://github.com/bluealloy/revm.git", rev = "a28a543" }
 revm-precompile = { git = "https://github.com/bluealloy/revm.git", rev = "a28a543" }
 revm-primitives = { git = "https://github.com/bluealloy/revm.git", rev = "a28a543" }
+
